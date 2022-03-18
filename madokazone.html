@@ -1,51 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
 <meta charset="UTF-8">
 <title>Madoka Zone</title>
-<link rel="stylesheet" type="text/css" href="CSSFiles/Topbar.css" />
-<link rel="stylesheet" type="text/css" href="CSSFiles/Card.css" />
-<link rel="stylesheet" type="text/css" href="CSSFiles/BlurCard.css" />
-<style type="text/css">
+<link rel="stylesheet" type="text/css" href="css/Top-bar.css" />
+<link rel="stylesheet" type="text/css" href="css/Card.css" />
+<link rel="stylesheet" type="text/css" href="css/BlurCard.css" />
+<style>
 @font-face {
 	font-family: 'madokarunes';
-	src: url('fonts/madokarunes-2.0-webfont.eot');
-	src: url('fonts/madokarunes-2.0-webfont.eot?#iefix')
+	src: url('font/madokarunes-2.0-webfont.eot');
+	src: url('font/madokarunes-2.0-webfont.eot?#iefix')
 		format('embedded-opentype'),
-		url('fonts/madokarunes-2.0-webfont.woff2') format('woff2'),
-		url('fonts/madokarunes-2.0-webfont.woff') format('woff'),
-		url('fonts/madokarunes-2.0-webfont.ttf') format('truetype'),
-		url('fonts/madokarunes-2.0-webfont.svg#madokarunesregular')
+		url('font/madokarunes-2.0-webfont.woff2') format('woff2'),
+		url('font/madokarunes-2.0-webfont.woff') format('woff'),
+		url('font/madokarunes-2.0-webfont.ttf') format('truetype'),
+		url('font/madokarunes-2.0-webfont.svg#madokarunesregular')
 		format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-#toptext {
+.top-text {
 	padding-left: 20px;
 }
 
-#to-dis {
+.to-dis {
 	padding-top: 160px;
 }
 
-#dis {
+.dis {
 	padding-top: 100px;
 }
 
-#poem-title {
+.poem-title {
 	font-weight: bold;
 	font-size: 60px;
 }
 
-#poem {
-	font-family: "楷体";
+.poem {
+	font-family: "楷体",serif;
 	font-size: 32px;
 	line-height: 1.8;
 }
 
 body {
-	background: url('images/五人组.jpg') no-repeat center fixed;
+	background: url('img/五人组.jpg') no-repeat center fixed;
 	background-size: cover;
 }
 
@@ -63,24 +63,24 @@ a {
 </style>
 </head>
 <body>
-	<div id="navbar" style="z-index: 9999">
+	<div class="navbar" style="z-index: 9999">
 		<b>
-			<font size="5px" style="font-family: 'madokarunes'">MADOKA</font>
+			<font size="5px" style="font-family: 'madokarunes',serif">MADOKA</font>
 		</b>
-		<a id="toptext" href="gallery.html" target="_blank" style="font-family: 'madokarunes'">GALLERY</a>
-		<a id="toptext" href="notes.html" target="_blank" style="font-family: 'madokarunes'">ARTICLES</a>
-		<a id="toptext" href="madokazone.html" target="_blank" style="font-family: 'madokarunes'">MADOKA</a>
+		<a class="top-text" href="gallery.html" target="_blank" style="font-family: 'madokarunes',serif">GALLERY</a>
+		<a class="top-text" href="notes.html" target="_blank" style="font-family: 'madokarunes',serif">ARTICLES</a>
+		<a class="top-text" href="madokazone.html" target="_blank" style="font-family: 'madokarunes',serif">MADOKA</a>
 	</div>
-	<div id="to-dis">
-		<div id="blur-card">
-			<h1 align="center" style="font-family: 'madokarunes'">WELCOME TO MADOKA ZONE</h1>
+	<div class="to-dis">
+		<div class="blur-card">
+			<h1 align="center" style="font-family: 'madokarunes',serif">WELCOME TO MADOKA ZONE</h1>
 			<h1 align="center">WELCOME TO MADOKA ZONE</h1>
 		</div>
 	</div>
-	<div id="dis">
-		<div id="blur-card">
-			<h1 id="poem-title" align="center" style="font-family: 'madokarunes'">INCUBATOR</h1>
-			<p id="poem">
+	<div class="dis">
+		<div class="blur-card">
+			<h1 class="poem-title" align="center" style="font-family: 'madokarunes',serif">INCUBATOR</h1>
+			<p class="poem">
 				<br />
 				「僕と契約して魔法少女になってよ！」
 				<br />
@@ -92,10 +92,10 @@ a {
 			</p>
 		</div>
 	</div>
-	<div id="dis">
-		<div id="blur-card" style="font-family: 'madokarunes'">
-			<h1 id="poem-title" align="center" style="font-family: 'madokarunes'">MADOKA</h1>
-			<p id="poem" style="font-family: 'madokarunes'">
+	<div class="dis">
+		<div class="blur-card" style="font-family: 'madokarunes',serif">
+			<h1 class="poem-title" align="center" style="font-family: 'madokarunes',serif">MADOKA</h1>
+			<p class="poem" style="font-family: 'madokarunes',serif">
 				<br />
 				KAMISAMA DEMO NANI DEMO I
 				<br />
@@ -125,7 +125,7 @@ a {
 				--MADOKA
 				<br />
 			</p>
-			<div align="center"><img src="images/鹿目圆.jpg" height=auto width="70%"/></div>
+			<div align="center"><img src="img/鹿目圆.jpg" height=auto width="70%" alt="Madoka"/></div>
 		</div>
 	</div>
 </body>
